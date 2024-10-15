@@ -57,7 +57,7 @@ function GameRoom() {
       <h1>Game Room: {roomId}</h1>
 
       <div>
-        <h2>Make your move:</h2>
+        <h2> !Make your move:</h2>
         <button onClick={() => submitMove('rock')}>Rock</button>
         <button onClick={() => submitMove('paper')}>Paper</button>
         <button onClick={() => submitMove('scissors')}>Scissors</button>
