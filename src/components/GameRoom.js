@@ -10,7 +10,7 @@ function GameRoom() {
   const [playerId, setPlayerId] = useState('');
   const [playerMove, setPlayerMove] = useState('');
   const [opponentMove, setOpponentMove] = useState('');
-  const [result, setResult] = useState('');
+  const [result, setResult] = useState(''); 
 
   // Generate a playerId when the component mounts
   useEffect(() => {
