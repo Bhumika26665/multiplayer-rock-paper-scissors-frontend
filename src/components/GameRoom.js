@@ -21,7 +21,7 @@ function GameRoom() {
   useEffect(() => {
     const fetchRoomData = async () => {
       try {
-        const response = await axios.get(`https://multiplayer-rock-paper-scissors-4xeo.onrender.com/room/${roomId}`);
+        const response = await axios.get(`https://multiplayer-rock-paper-scissors-1.onrender.com/room/${roomId}`);
         setRoomData(response.data);
       } catch (error) {
         console.error('Error fetching room data:', error);
