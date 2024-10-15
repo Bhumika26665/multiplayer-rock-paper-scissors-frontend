@@ -35,7 +35,7 @@ function GameRoom() {
   const submitMove = async (move) => {
     setPlayerMove(move);
     try {
-      const response = await axios.post('http://localhost:3001/submit-move', {
+      const response = await axios.post('https://multiplayer-rock-paper-scissors-1.onrender.com/submit-move', {
         roomId,
         playerId,
         move,
