@@ -2,7 +2,7 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';  // Import useParams to get roomId from URL
 import '../styles/GameRoom.css';  // Adjust this path based on your directory structure
-  // Import the CSS for styling
+  // Import the CSS for styling 
 
 function GameRoom() {
   const { roomId } = useParams();  // Get roomId from the URL
